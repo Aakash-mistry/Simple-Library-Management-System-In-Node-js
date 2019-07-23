@@ -1,0 +1,68 @@
+<div class="fieldBox">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col s12 l6 center hide-on-med-and-down">
+        <div
+          style="margin-top: 54px;"
+        >
+        <img src="../../images/SVGS/security.svg" class="responsive-img" width="300" alt="image">
+        </div>
+        <div class="textLine">
+          <h5 class="center white-text">Secure Era</h5>
+          <p>This Site is in Under Development</p>
+          <p>If You Having Trouble in Signin or Ragistration Please Contact Admin</p>
+          <a href="#" class="left white-text report-link">Report a Problem</a>
+        </div>
+      </div>
+      <div class="col s12 l6 ragisterSide">
+
+        <div class="row regiter">
+          <form action="/register" autocomplete="off" method="POST">
+          <h5 class="center">Ragister Now!</h5>
+
+              <div class="row">
+                <div class="input-field col s6">
+                <input id="first_name" type="text" name="firstname" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+
+              <div class="input-field col s6">
+                <input id="last_name" type="text" name="lastname" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12">
+                <input id="email" type="email" name="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+              </div>
+
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="password" type="password" name="password" class="validate">
+                <label for="password">Password</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="pswd" type="password" name="confirmPassword" class="validate">
+                <label for="pswd">Confirm Password</label>
+              </div>
+            </div>
+
+              <button type="submit" class="btn red right indigo black-text z-depth-0"
+                style="border-radius: 2px!important;"
+              >Ragister</button>
+              <a href="/" class="btn right"
+                 style="border-radius: 2px!important;"
+              >Go Back | Homepage</a>
+              {{#if messages}}
+                <div class="red-text">
+                  {{messages}}
+              </div>
+              {{/ if}}
+          </form>
+        </div>
+    </div>
+  </div>
+</div>

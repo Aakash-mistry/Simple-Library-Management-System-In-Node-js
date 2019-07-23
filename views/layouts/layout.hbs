@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>LMS</title>
+		<link rel='stylesheet' href='/stylesheets/style.css' />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	</head>
+<body>
+	{{> navbar}}
+		{{{body}}}
+	{{> footer}}
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function(){
+	var elems = document.querySelectorAll('.sidenav');
+	var instances = M.Sidenav.init(elems, {edge:'right'});
+	$('.tabs').tabs();
+	$('.datepicker').datepicker();
+	$('input#input_text, textarea#textarea2').characterCounter();
+	$('.materialboxed').materialbox();
+});
+	</script>
+	<script src="/Javascripts/main.js" charset="utf-8"></script>
+</body>
+</html>

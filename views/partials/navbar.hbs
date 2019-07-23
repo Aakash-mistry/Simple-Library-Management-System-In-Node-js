@@ -1,0 +1,37 @@
+<div class="navbar-fixed">
+
+<nav class="container-fluid z-depth-0 indigo lighten-2">
+	<div class="nav-wrapper">
+		<a href="/" class="brand-logo purple-text">LMS</a>
+	 <ul class="right hide-on-med-and-down show-on-small show-on-medium">
+		<li><a href="#" data-target="mobile-demo" class="sidenav-trigger black-text show-on-large"><i class="material-icons">menu</i></a></li>
+	</ul>
+    </div>
+  </nav>
+
+</div>
+  <ul class="sidenav center" id="mobile-demo">
+    {{#if login}}
+    <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Report Problem?</a></li>
+        <li><a href="#">FAQs</a></li>
+        <div class="divider"></div>
+            <li><a href="/profile"><span class="glyphicon glyphicon-user"></span>Take Me to Profile</a></li>
+            <li><a href="/logout"><span class="glyphicon glyphicon-log-in"></span>Logout</a></li>
+          </ul>
+        </li>
+        {{else}}
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Report Problem?</a></li>
+        <li><a href="#">FAQs</a></li>
+        <div class="divider"></div>
+        <li><a href="/register" class="btn" style="
+        border-radius: 5px!important;
+        ">Create Account</a></li>
+        <li><a href="/signin" class="btn" style="
+        border-radius: 5px!important;
+        ">Login</a></li>
+        {{/if}}
+  </ul>

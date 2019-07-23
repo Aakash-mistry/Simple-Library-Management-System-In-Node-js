@@ -1,0 +1,48 @@
+<div class="container-fluid shop">
+
+<div class="background">
+	<div class="searchBar">
+		<form action="/search" method="get" id="search">
+			<div class="input-field col s6">
+				<input id="myInput" type="text" name="query" id="">
+			<label for="search"><i class="material-icons left">search</i>Search</label>
+			</div>
+		</form>
+		<h4 class="center" style="margin-top: 100px;">Find Your Favorite Book And Review To The Speacialize Feacher</h4>
+	</div>
+</div>
+
+<div class="container">
+
+{{# each books}}
+	<div class="row">
+		{{# each this}}
+			<div class="col s12 l3">
+				<div class="bookShowcase" id="book">
+					<div class="row">
+						<div class="col s3 l12">
+							<div class="center">
+								<img src="{{ this.imagePath }}" class="responsive-img materialboxed" alt="">
+							</div>
+						</div>
+						<div class="col s9 l12">
+							<h6>
+								<i class="material-icons left">
+									book
+								</i>
+								<a href="/bookInfo/{{this.id}}" class="black-text">
+									{{ this.title }}
+								</a>
+							</h6>
+							<div class="">
+								Book By :- <br><b class="author">{{ this.author }}</b>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{{/ each}}
+		</div>
+{{/ each}}
+	</div>
+</div>

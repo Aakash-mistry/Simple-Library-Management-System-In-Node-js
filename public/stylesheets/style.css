@@ -1,0 +1,277 @@
+body{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+font-family: 'Raleway', sans-serif;
+}
+
+
+header, main, footer {
+padding-left: 300px;
+}
+
+nav{height: 80px!important;}
+
+.brand-logo{
+font-size: 35px!important;
+margin-top: 8px;
+}
+
+.sidenav-trigger{
+margin-top: 10px!important;
+font-size: 20px;
+}
+
+ul li a{
+margin-top: 8px;
+font-size: 18px!important;
+}
+
+.backgroundImage{
+background-color: #7986cb;
+clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 0 0);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+
+.backgroundText{
+margin-top: 150px;
+}
+
+.backgroundBtn{
+margin-top: 50px;
+}
+
+.Images{
+margin-top: 150px;
+}
+
+.btn{
+border-radius: 50px!important;
+margin: 10px;
+}
+
+/* Second Section */
+.AboutText{
+margin-bottom: 50px;
+}
+
+.aboutIcons{
+border: 3px solild black!important;
+}
+
+.aboutImage{
+margin-top: 80px;
+}
+
+.thirdSection{
+background-color: azure;
+padding-top: 20px;
+}
+
+.section{
+border-radius: 10px!important;
+padding: 20px;
+}
+
+/* label color */
+.input-field label {
+color: black!important;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+color: black!important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+border-bottom: 1px solid black!important;
+box-shadow: 0 1px 0 0 black!important;
+}
+/* valid color */
+.input-field input[type=text].valid {
+border-bottom: 1px solid black!important;
+box-shadow: 0 1px 0 0 black!important;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+border-bottom: 1px solid black!important;
+box-shadow: 0 1px 0 0 black!important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+color: black!important;
+}
+
+.input-field label {
+color: black!important;
+}
+/* label focus color */
+.input-field input[type=email]:focus + label {
+color: black!important;
+}
+/* label underline focus color */
+.input-field input[type=email]:focus {
+border-bottom: 1px solid black!important;
+box-shadow: 0 1px 0 0 black!important;
+}
+/* valid color */
+.input-field input[type=email].valid {
+border-bottom: 1px solid black!important;
+box-shadow: 0 1px 0 0 black!important;
+}
+/* invalid color */
+.input-field input[type=email].invalid {
+border-bottom: 1px solid black!important;
+box-shadow: 0 1px 0 0 black!important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+color: black!important;
+}
+
+.input-field label {
+color: black!important;
+}
+/* label focus color */
+.input-field input[type=password]:focus + label {
+color: black!important;
+}
+/* label underline focus color */
+.input-field input[type=password]:focus {
+border-bottom: 1px solid black!important;
+box-shadow: 0 1px 0 0 black!important;
+}
+/* valid color */
+.input-field input[type=password].valid {
+border-bottom: 1px solid black!important;
+box-shadow: 0 1px 0 0 black!important;
+}
+/* invalid color */
+.input-field input[type=password].invalid {
+border-bottom: 1px solid black!important;
+box-shadow: 0 1px 0 0 black!important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+color: black!important;
+}
+
+.fieldBox{
+margin-top: 15px;
+height: 80vh;
+}
+
+.textLine{
+margin-top: 50px;
+margin-bottom: 54px;
+}
+
+.regiter{
+margin-top: 20px;
+padding: 20px;
+}
+
+.report-link:hover{
+text-decoration: underline;
+}
+
+.btns{
+border-radius: none!important;
+}
+
+.login{
+margin-top: 30px;
+}
+
+.inputField{
+padding: 30px;
+}
+
+.fieldBoxLogin{
+	height: auto;
+}
+
+.profilePage{
+margin-top: 25px;
+}
+
+.profilePage .profileBox{
+padding: 20px;
+}
+
+.shop{
+margin-top: 15px;
+}
+
+.bookShowcase{
+padding: 10px!important;
+margin-top: 20px;
+}
+
+.author{
+margin-top: 20px;
+text-align: center!important
+}
+
+.bookLink{
+margin-top: 10px;
+font-size: 20px
+}
+
+.searchBar{
+	padding: 20px;
+	height: 50vh;
+}
+
+.productPage{
+	margin-top: 50px!important;
+}
+
+.bookPrice{
+	margin-top: 50px;
+}
+
+.bookPrice .Btns{
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 20px;
+	color: rgb(255, 252, 92);
+	background-color: #333945
+}
+
+.addtocart{
+	margin-top: 50px;
+	font-size: 20px;
+	padding-top: 10px!important;
+	padding-bottom: 10px!important
+}
+
+.superRoutes{
+	margin-top: 30px!important;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.iconRoutes{
+	font-size: 150px!important;
+	padding: 20px;
+}
+
+.inner-Box{
+	padding: 30px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.adminBtns{
+	margin-top: 20px!important;
+	padding: 10px;
+	background-color: dodgerblue;
+	color: white;
+	border-radius: 2px
+}
+
+.bookaddservice{
+	margin-top: 50px!important;
+}
