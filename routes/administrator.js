@@ -11,7 +11,7 @@ var router = express.Router();
 // 	}
 // });
 
-var uploads = multer({ storage: storage }).single('image');
+// var uploads = multer({ storage: storage }).single('image');
 
 /* GET home page.& Products */
 router.get('/adminislive' ,function(req, res, next) {

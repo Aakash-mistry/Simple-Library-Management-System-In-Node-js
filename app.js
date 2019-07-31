@@ -11,7 +11,6 @@ var flash = require('connect-flash');
 var session = require('express-session');
 var passport = require('passport');
 
-
 var indexRouter = require('./routes/index'),Strategy;
 var adminRouter = require('./routes/administrator');
 
